@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Terrain" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Terrain" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="/home/shared/Programming/C++/games/Terrain/" />
+				</Compiler>
+				<Linker>
+					<Add option="-lGL" />
+					<Add option="-lSDL" />
+					<Add option="-lGLEW" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Terrain" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="/home/shared/Programming/C++/games/Terrain/" />
+					<Add directory="include" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-lGL" />
+			<Add option="-lGLEW" />
+			<Add option="-lGLU" />
+			<Add option="-lSDL" />
+		</Linker>
+		<Unit filename="Global.h" />
+		<Unit filename="ShaderUtils.cpp" />
+		<Unit filename="include/Camera.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/MatrixManager.h" />
+		<Unit filename="include/MouseManager.h" />
+		<Unit filename="include/Object.h" />
+		<Unit filename="include/Terrain.h" />
+		<Unit filename="include/TerrainChunk.h" />
+		<Unit filename="include/TerrainGenerator.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Camera.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/MatrixManager.cpp" />
+		<Unit filename="src/MouseManager.cpp" />
+		<Unit filename="src/Object.cpp" />
+		<Unit filename="src/Terrain.cpp" />
+		<Unit filename="src/TerrainChunk.cpp" />
+		<Unit filename="src/TerrainGenerator.cpp" />
+		<Unit filename="test.fp" />
+		<Unit filename="test.vp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,210 @@
+# depslib dependency file v1.0
+1379971676 source:/home/shared/Programming/C++/games/Terrain/main.cpp
+	"Game.h"
+	"Global.h"
+
+1390133010 /home/shared/Programming/C++/games/Terrain/include/Game.h
+	<cstdio>
+	<SDL/SDL.h>
+	<GL/glew.h>
+	"Object.h"
+	"Global.h"
+	"Camera.h"
+	"Terrain.h"
+	"MatrixManager.h"
+	"MouseManager.h"
+	"ShaderUtils.h"
+
+1416994259 source:/home/shared/Programming/C++/games/Terrain/src/Game.cpp
+	"Game.h"
+
+1376852688 /home/shared/Programming/C++/games/Terrain/include/Object.h
+	"SDL/SDL.h"
+
+1416993696 source:/home/shared/Programming/C++/games/Terrain/ShaderUtils.cpp
+	"ShaderUtils.h"
+
+1376575256 /home/shared/Programming/C++/games/Terrain/ShaderUtils.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<iostream>
+	<fstream>
+	<cstdarg>
+
+1376853324 source:/home/shared/Programming/C++/games/Terrain/src/Object.cpp
+	"Object.h"
+
+1376850553 source:/home/shared/Programming/C++/games/Terrain/src/Triangle.cpp
+	"Triangle.h"
+
+1376850544 /home/shared/Programming/C++/games/Terrain/include/Triangle.h
+	"Object.h"
+	"ShaderUtils.h"
+	<GL/glut.h>
+
+1376575256 /home/shared/Programming/C++/games/Terrain//ShaderUtils.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<iostream>
+	<fstream>
+	<cstdarg>
+
+1405512331 source:/home/shared/Programming/C++/games/Terrain/src/MatrixManager.cpp
+	"MatrixManager.h"
+
+1405512255 /home/shared/Programming/C++/games/Terrain/include/MatrixManager.h
+	<stack>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1376850574 source:/home/shared/Programming/C++/games/Terrain/src/Quad.cpp
+	"Quad.h"
+
+1376850562 /home/shared/Programming/C++/games/Terrain/include/Quad.h
+	"Game.h"
+	"glm/glm.hpp"
+
+1380881597 /home/shared/Programming/C++/games/Terrain/include/Terrain.h
+	"TerrainChunk.h"
+	"Global.h"
+	"Camera.h"
+
+1380054532 source:/home/shared/Programming/C++/games/Terrain/src/Terrain.cpp
+	"Terrain.h"
+
+1416993778 /home/shared/Programming/C++/games/Terrain//Global.h
+
+1416993778 /home/shared/Programming/C++/games/Terrain/Global.h
+
+1388496583 source:/home/shared/Programming/C++/games/Terrain/src/Camera.cpp
+	"Camera.h"
+
+1380052426 /home/shared/Programming/C++/games/Terrain/include/Camera.h
+	"Game.h"
+	"Object.h"
+	"glm/glm.hpp"
+	"TerrainGenerator.h"
+
+1376838912 /home/shared/Programming/C++/games/Terrain/include/KeyboardManager.h
+	<stdlib.h>
+
+1376838897 source:/home/shared/Programming/C++/games/Terrain/src/KeyboardManager.cpp
+	"KeyboardManager.h"
+
+1376851606 /home/shared/Programming/C++/games/Terrain/include/MouseManager.h
+	<glm/glm.hpp>
+	"Global.h"
+
+1376851581 source:/home/shared/Programming/C++/games/Terrain/src/MouseManager.cpp
+	"MouseManager.h"
+
+1376918021 /home/shared/Programming/C++/games/Terrain/include/TerrainGenerator.h
+	"math.h"
+	"stdio.h"
+
+1416993895 source:/home/shared/Programming/C++/games/Terrain/src/TerrainGenerator.cpp
+	"TerrainGenerator.h"
+	"cmath"
+
+1379685480 /home/shared/Programming/C++/games/Terrain/include/TerrainChunk.h
+	"Global.h"
+	"Game.h"
+	"glm/glm.hpp"
+	"math.h"
+	"TerrainGenerator.h"
+
+1416993982 source:/home/shared/Programming/C++/games/Terrain/src/TerrainChunk.cpp
+	"TerrainChunk.h"
+
+1379971676 source:/home/zdule/Programming/C++/games/Terrain/main.cpp
+	"Game.h"
+	"Global.h"
+
+1450042736 /home/zdule/Programming/C++/games/Terrain/include/Game.h
+	<cstdio>
+	<SDL/SDL.h>
+	<GL/glew.h>
+	"Object.h"
+	"../Global.h"
+	"Camera.h"
+	"Terrain.h"
+	"MatrixManager.h"
+	"MouseManager.h"
+	"../ShaderUtils.h"
+
+1376852688 /home/zdule/Programming/C++/games/Terrain/include/Object.h
+	"SDL/SDL.h"
+
+1450042694 /home/zdule/Programming/C++/games/Terrain/include/Camera.h
+	"Game.h"
+	"Object.h"
+	<glm/glm.hpp>
+	"TerrainGenerator.h"
+
+1376918021 /home/zdule/Programming/C++/games/Terrain/include/TerrainGenerator.h
+	"math.h"
+	"stdio.h"
+
+1450042727 /home/zdule/Programming/C++/games/Terrain/include/Terrain.h
+	"TerrainChunk.h"
+	"../Global.h"
+	"Camera.h"
+
+1450042723 /home/zdule/Programming/C++/games/Terrain/include/TerrainChunk.h
+	"../Global.h"
+	"Game.h"
+	"glm/glm.hpp"
+	"math.h"
+	"TerrainGenerator.h"
+
+1405512255 /home/zdule/Programming/C++/games/Terrain/include/MatrixManager.h
+	<stack>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1450042730 /home/zdule/Programming/C++/games/Terrain/include/MouseManager.h
+	<glm/glm.hpp>
+	"../Global.h"
+
+1416993778 /home/zdule/Programming/C++/games/Terrain/Global.h
+
+1416993696 source:/home/zdule/Programming/C++/games/Terrain/ShaderUtils.cpp
+	"ShaderUtils.h"
+
+1376575256 /home/zdule/Programming/C++/games/Terrain/ShaderUtils.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<iostream>
+	<fstream>
+	<cstdarg>
+
+1388496583 source:/home/zdule/Programming/C++/games/Terrain/src/Camera.cpp
+	"Camera.h"
+
+1424458094 source:/home/zdule/Programming/C++/games/Terrain/src/Game.cpp
+	"Game.h"
+
+1450042930 source:/home/zdule/Programming/C++/games/Terrain/src/MatrixManager.cpp
+	"MatrixManager.h"
+	<cstdio>
+
+1376851581 source:/home/zdule/Programming/C++/games/Terrain/src/MouseManager.cpp
+	"MouseManager.h"
+
+1376853324 source:/home/zdule/Programming/C++/games/Terrain/src/Object.cpp
+	"Object.h"
+
+1380054532 source:/home/zdule/Programming/C++/games/Terrain/src/Terrain.cpp
+	"Terrain.h"
+
+1416993982 source:/home/zdule/Programming/C++/games/Terrain/src/TerrainChunk.cpp
+	"TerrainChunk.h"
+
+1416993895 source:/home/zdule/Programming/C++/games/Terrain/src/TerrainGenerator.cpp
+	"TerrainGenerator.h"
+	"cmath"
+
