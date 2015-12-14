@@ -1,4 +1,4 @@
-### Z-Terrain
+# Z-Terrain
 
 This is a small demo of random terrain generation and visiualisation using pseudo random noise functions, opengl, and c++.
 
@@ -11,6 +11,12 @@ Build Dependencies ( and their package names on ubuntu )
 -   glew ( libglew-dev )
 -   glm ( libglm-dev )
 
+You can build the program using make or codeblocks ide.
+
+Controls:
+-   Use space to ascend
+-   Use shift+space to descend
+-   Use w-a-s-d to move around
 
 ## Screenshots
 
